@@ -1,7 +1,13 @@
+using booktrackingapp.Data;
+using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<BlogContext>(options => {
+    options.UseSqlite("Data Source=/Users/majidpawar/Web/mydb.db;Version=3;");
+});
 
 var app = builder.Build();
 
