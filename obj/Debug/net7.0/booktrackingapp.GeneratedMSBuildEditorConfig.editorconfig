@@ -16,16 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/majidpawar/Web/booktrackingapp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/majidpawar/Web/booktrackingapp/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/majidpawar/Web/booktrackingapp/Views/Books/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/majidpawar/Web/booktrackingapp/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/majidpawar/Web/booktrackingapp/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/majidpawar/Web/booktrackingapp/Views/Books/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/majidpawar/Web/booktrackingapp/Views/Shared/_ValidationScriptsPartial.cshtml]
