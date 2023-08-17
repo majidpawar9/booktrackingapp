@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<BlogContext>(options => {
-    options.UseSqlite("Data Source=/Users/majidpawar/Web/mydb.db;Version=3;");
+    options.UseSqlite(@"Data Source=/Users/majidpawar/Web/mydb.db;");
 });
 
 var app = builder.Build();
@@ -26,8 +26,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Books}/{action=Index}/{id?}");
 
 app.Run();
