@@ -6,7 +6,7 @@ using booktrackingapp.Data;
 
 public class BooksController : Controller
 {
-    private readonly BlogContext _context; // Replace with your DbContext
+    private readonly BlogContext _context;
 
     public BooksController(BlogContext context)
     {
@@ -38,6 +38,4 @@ public class BooksController : Controller
         }
         return View(book);
     }
-
-    // Other actions like Edit, Delete, etc.
 }
