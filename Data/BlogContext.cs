@@ -10,7 +10,6 @@ namespace booktrackingapp.Data
         {
 
         }
-
         public DbSet<Book> Books { get; set; } =null!;
 
     }

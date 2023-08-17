@@ -12,9 +12,8 @@ namespace booktrackingapp.Models
         [Required]
         public string Author { get; set; }
         
-        public Genre Genre { get; set; } // Assuming Genre is an enum or another entity
+        public Genre Genre { get; set; } 
         
-        // Other properties like publication date, rating, etc.
     }
     
     public enum Genre
@@ -23,6 +22,5 @@ namespace booktrackingapp.Models
         Fantasy,
         Romance,
         ScienceFiction,
-        // Other genres
     }
 }
